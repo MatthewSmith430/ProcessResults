@@ -8,6 +8,6 @@ Description: A package with some key functions for processing statistical modell
 Depends: R (>= 3.5.0)
 License: GPL-3
 Encoding: UTF-8
-Imports: docxtractr,openxlsx,readr
+Imports: docxtractr,openxlsx,readr,ggplot2,ergm,stats
 LazyData: true
 RoxygenNote: 7.1.1
