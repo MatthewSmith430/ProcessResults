@@ -9,7 +9,7 @@ htmlreg_convert(doc, excel_format)
 \arguments{
 \item{doc}{The .docx file}
 
-\item{excel_format}{TRUE for excel file, FALSE for a csv}
+\item{excel_format}{write whether you want this as "csv" or "xlsx"}
 }
 \value{
 writes the output as a table in excel or csv format.

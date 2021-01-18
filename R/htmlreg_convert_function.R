@@ -2,7 +2,7 @@
 #'
 #' @description This function converts a .docx file (created using texreg's htmlreg function) to a tabular file (excel or csv)
 #' @param doc The .docx file
-#' @param excel_format TRUE for excel file, FALSE for a csv
+#' @param excel_format write whether you want this as "csv" or "xlsx"
 #' @export
 #' @return writes the output as a table in excel or csv format.
 #'
@@ -13,7 +13,7 @@ htmlreg_convert<-function(doc,excel_format){
 
   TABLE_XLS<-docxtractr::docx_extract_tbl(complx, 1, header=TRUE)
 
-  if (format==TRUE){
+  if (excel_format!="csv"){
     openxlsx::write.xlsx(TABLE_XLS,NAME1)
   }else {readr::write_csv(TABLE_XLS,NAME2)}
 }
