@@ -29,9 +29,9 @@ ERGM_result_plot<-function(ergm.fit,custom_var_names,plot_title,y_axis_lab=TRUE)
     if (coef_df[i,]$low < 0&coef_df[i,]$high>0){
       coef_df[i,]$colour<-"dodgerblue4"
     } else if (coef_df[i,]$low>0&coef_df[i,]$high>0){
-      coef_df[i,]$colour<-"firebrick4"
+      coef_df[i,]$colour<-"red"
     }else if (coef_df[i,]$low<0&coef_df[i,]$high<0){
-      coef_df[i,]$colour<-"firebrick4"
+      coef_df[i,]$colour<-"red"
     } else {
       coef_df[i,]$colour<-"white"
     }

@@ -3,7 +3,7 @@
     "path": "C:/Users/matt_/Documents/Github/ProcessResults/R/ERGM_result_plot_function.R",
     "project_path": "R/ERGM_result_plot_function.R",
     "type": "r_source",
-    "hash": "3618437357",
+    "hash": "3481942505",
     "contents": "",
     "dirty": false,
     "created": 1606410554182.0,
@@ -11,15 +11,16 @@
     "relative_order": 1,
     "properties": {
         "tempName": "Untitled1",
-        "cursorPosition": "8,15",
-        "scrollLine": "0"
+        "cursorPosition": "28,48",
+        "scrollLine": "4",
+        "Source": "Source"
     },
     "folds": "",
-    "lastKnownWriteTime": 1606410918,
+    "lastKnownWriteTime": 1624624773,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1606410918344,
+    "last_content_update": 1624624773690,
     "read_only": false,
     "read_only_alternatives": []
 }
